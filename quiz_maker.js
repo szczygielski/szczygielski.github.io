@@ -21,5 +21,5 @@ function check(){
         cnt++;
     }
 
-  document.getElementById("correct_answers").innerHTML ="Twój wynik to " + cnt + " /5 punktów."
+  document.getElementById("correct_answers").innerHTML ="Twój wynik to " + cnt + " /5 punktów. Odpowiedzi: 1. d, 2. a, 3. b, 4. b, 5. a "
 }
