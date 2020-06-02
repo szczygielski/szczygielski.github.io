@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8"name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <script src="quiz_maker.js"></script>
+</head>
+<body>
+<div class="layout">
+    <div class="title">Quiz</div>
+    <a href ="index.html">strona główna</a>
+    <p>Proszę uzupełnić quiz udzielając po jednej odpowiedzi w każdym pytaniu. Powodzenia!</p>
+    <form id="quiz" name = "quiz">
+        <div id="question">
+         1.Ile niepodległych państw wchodzi w skład Oceanii?
+        </div>
+        <div id="answers">
+        </br>
+        <input type="radio" name="pytanie1" value="złe"> 15 </br>
+        <input type="radio" name="pytanie1" value="złe"> 9 </br>
+        <input type="radio" name="pytanie1" value="złe"> 16 </br>
+        <input type="radio" name="pytanie1" value="dobre"> 13 </br>
+        </div>
+
+        <div id="question">
+         2.Na jakie regiony podzielona jest Oceania?
+        </div>
+        </br>
+        <div id="answers">
+        <input type="radio" name="pytanie2" value="dobre"> Mikronezja, Melanezja, Polinezja </br>
+        <input type="radio" name="pytanie2" value="złe"> Melanezja, Polinezja, Makronezja </br>
+        <input type="radio" name="pytanie2" value="złe"> Melanezja i Polinezja </br>
+        </div>
+        <div id="question">
+            3.Kto jako pierwszy z europejczyków odkrył Oceanię?
+        </div>
+        </br>
+        <div id="answers">
+            <input type="radio" name="pytanie3" value="złe"> Vasco da Gama </br>
+            <input type="radio" name="pytanie3" value="dobre"> Ferdynand Magellan </br>
+            <input type="radio" name="pytanie3" value="złe"> James Cook </br>
+        </div>
+        <div id="question">
+            4. Częścią jakiego państwa są Wyspy Wielkanocne?
+        </div>
+        </br>
+        <div id="answers">
+            <input type="radio" name="pytanie4" value="złe"> Ekwadoru </br>
+            <input type="radio" name="pytanie4" value="dobre"> Chile </br>
+            <input type="radio" name="pytanie4" value="złe"> Nowej Zelandii </br>
+        </div>
+        <div id="question">
+            5. Które z tych państw ma najdłuższą linię brzegową?
+        </div>
+        </br>
+        <div id="answers">
+            <input type="radio" name="pytanie5" value="dobre"> Mikronezja </br>
+            <input type="radio" name="pytanie5" value="złe"> Kiribati </br>
+            <input type="radio" name="pytanie5" value="złe"> Wyspy Salomona </br>
+        </div>
+
+    </form>
+
+    <button id="submit" onclick="check();">Sprawdź wynik</button>
+
+    <p id = correct_answers></p>
+
+</div>
+</body>
+</html>
